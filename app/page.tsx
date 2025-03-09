@@ -14,7 +14,7 @@ export default function Home() {
       <Hero className="w-[80%] max-lg:w-[95%] mx-auto py-54" />
       <div className="w-full bg-background">
         <News className="w-[80%] max-lg:w-[95%] mx-auto py-20" />
-        <About className="w-[80%] max-lg:w-[95%] mx-auto py-20" />
+        <About className="xl:w-[80%] lg:w-[95%] mx-auto py-20" />
       </div>
       <Footer />
     </div>

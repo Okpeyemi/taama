@@ -10,34 +10,34 @@ const Footer = () => {
 
   return (
     <div className="bg-pink-800 flex flex-col items-center w-full">
-      <h1 className="text-8xl uppercase pt-20 text-white">Suivez-nous</h1>
+      <h1 className="text-8xl max-md:text-4xl uppercase pt-20 text-white">Suivez-nous</h1>
       <div className="w-full mt-[-20px] flex flex-col items-center p-10 max-lg:p-[3%]">
-        <div className="flex space-x-4 w-[25%] max-lg:w-[50%] justify-between items-center text-white py-10">
+        <div className="flex space-x-4 w-[25%] max-md:w-[80%] max-lg:w-[50%] justify-between items-center text-white py-10">
           <a
             href="#"
             className="flex flex-col items-center space-y-3 hover:text-primary transition-all duration-300 ease-linear cursor-pointer"
           >
-            <Instagram className="w-20 h-20 max-lg:w-10 max-lg:h-10" />
-            <h6 className="uppercase">Instagram</h6>
+            <Instagram className="w-20 h-20 max-md:w-5 max-md:h-5 max-lg:w-10 max-lg:h-10" />
+            <h6 className="uppercase max-md:text-[10px]">Instagram</h6>
           </a>
           <a
             href="#"
             className="flex flex-col items-center space-y-3 hover:text-primary transition-all duration-300 ease-linear cursor-pointer"
           >
-            <Facebook className="w-20 h-20 max-lg:w-10 max-lg:h-10" />
-            <h6 className="uppercase">Instagram</h6>
+            <Facebook className="w-20 h-20 max-md:w-5 max-md:h-5 max-lg:w-10 max-lg:h-10" />
+            <h6 className="uppercase max-md:text-[10px]">Instagram</h6>
           </a>
           <a
             href="#"
             className="flex flex-col items-center space-y-3 hover:text-primary transition-all duration-300 ease-linear cursor-pointer"
           >
-            <Twitter className="w-20 h-20 max-lg:w-10 max-lg:h-10" />
-            <h6 className="uppercase">Instagram</h6>
+            <Twitter className="w-20 h-20 max-md:w-5 max-md:h-5 max-lg:w-10 max-lg:h-10" />
+            <h6 className="uppercase max-md:text-[10px]">Instagram</h6>
           </a>
         </div>
       </div>
       <div className="bg-primary w-full flex flex-col items-center justify-center">
-        <a href="#" className="font-kablammo text-9xl text-white pt-10 pb-5">
+        <a href="#" className="font-kablammo text-9xl max-md:text-6xl text-white pt-10 pb-5">
           TAAMA
         </a>
         <nav className="flex space-x-4 font-poppins text-white py-5">
